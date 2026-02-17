@@ -1,8 +1,7 @@
 '''Segundo taller estadística 2
-  John Mario Flórez Otálvaro
-  I.d.1065001612
+  John Flórez
   ''' 
-.rs.restartR()
+.rs.restartR() #Reinicia el entorno de R después de algunos errores de configuración
 #Librerías necesarias:
 library(tidyverse)
 library(MASS)        # negative binomial
@@ -148,6 +147,7 @@ glm(
   family = binomial,
   data = data_sp1
 )
+
 
 
 summary(m_bin)
